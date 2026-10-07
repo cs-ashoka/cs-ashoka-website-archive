@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T00:00:00Z",
+  "title": "Design System: CS Society @ Ashoka (AUCSS)",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Ashoka Signal Red", "canonical": "#D80032", "tonalRamp": ["oklch(15% 0.06 21)", "oklch(27% 0.11 21)", "oklch(39% 0.16 21)", "oklch(55.5% 0.222 21)", "oklch(66% 0.17 21)", "oklch(76% 0.11 21)", "oklch(86% 0.06 21)", "oklch(95% 0.02 21)"] },
+      "on-primary": { "role": "neutral", "displayName": "On Red White", "canonical": "#ffffff", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(100% 0 0)"] },
+      "background": { "role": "neutral", "displayName": "Paper Mist", "canonical": "#f7f9fb", "tonalRamp": ["oklch(15% 0.003 248)", "oklch(27% 0.003 248)", "oklch(39% 0.003 248)", "oklch(51% 0.003 248)", "oklch(63% 0.003 248)", "oklch(75% 0.003 248)", "oklch(87% 0.003 248)", "oklch(98.3% 0.003 248)"] },
+      "surface": { "role": "neutral", "displayName": "Clean Sheet", "canonical": "#ffffff", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(100% 0 0)"] },
+      "surface-container-low": { "role": "neutral", "displayName": "Faint Ledger", "canonical": "#f2f4f6", "tonalRamp": ["oklch(15% 0.003 248)", "oklch(27% 0.003 248)", "oklch(39% 0.003 248)", "oklch(51% 0.003 248)", "oklch(63% 0.003 248)", "oklch(75% 0.003 248)", "oklch(87% 0.003 248)", "oklch(96.6% 0.003 248)"] },
+      "surface-container": { "role": "neutral", "displayName": "Ledger Gray", "canonical": "#eceef0", "tonalRamp": ["oklch(15% 0.003 248)", "oklch(27% 0.003 248)", "oklch(39% 0.003 248)", "oklch(51% 0.003 248)", "oklch(63% 0.003 248)", "oklch(75% 0.003 248)", "oklch(87% 0.003 248)", "oklch(94.8% 0.003 248)"] },
+      "border": { "role": "neutral", "displayName": "Hairline", "canonical": "#e2e2e2", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(85% 0 0)", "oklch(91.3% 0 0)"] },
+      "dot-grid": { "role": "neutral", "displayName": "Dot Grid Slate", "canonical": "#e2e8f0", "tonalRamp": ["oklch(15% 0.012 255)", "oklch(27% 0.012 255)", "oklch(39% 0.012 255)", "oklch(51% 0.012 255)", "oklch(63% 0.012 255)", "oklch(75% 0.012 255)", "oklch(87% 0.012 255)", "oklch(92.9% 0.012 255)"] },
+      "on-surface": { "role": "neutral", "displayName": "Ink", "canonical": "#191c1e", "tonalRamp": ["oklch(15% 0.006 240)", "oklch(22% 0.006 240)", "oklch(34% 0.006 240)", "oklch(46% 0.006 240)", "oklch(58% 0.006 240)", "oklch(70% 0.006 240)", "oklch(82% 0.006 240)", "oklch(94% 0.006 240)"] },
+      "on-surface-variant": { "role": "neutral", "displayName": "Warm Umber Ink", "canonical": "#5d3f3c", "tonalRamp": ["oklch(15% 0.03 28)", "oklch(27% 0.035 28)", "oklch(39% 0.04 28)", "oklch(51% 0.04 28)", "oklch(63% 0.035 28)", "oklch(75% 0.03 28)", "oklch(87% 0.02 28)", "oklch(95% 0.01 28)"] },
+      "secondary": { "role": "neutral", "displayName": "Graphite", "canonical": "#5e5e5e", "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(48.5% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(95% 0 0)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Home hero name only." },
+      "headline": { "displayName": "Headline", "purpose": "One page-level h1 per route." },
+      "title": { "displayName": "Title", "purpose": "Section h2s." },
+      "card-title": { "displayName": "Card Title", "purpose": "Card and tile headings; red on group hover." },
+      "body": { "displayName": "Body", "purpose": "Explanatory copy in on-surface-variant, measure about 36-42rem." },
+      "body-small": { "displayName": "Body Small", "purpose": "Card body copy and secondary paragraphs." },
+      "label": { "displayName": "Mono Label", "purpose": "Button text and navigation, uppercase, 0.1em tracking." },
+      "data": { "displayName": "Mono Data", "purpose": "Dates, academic years, table year cells; tabular figures." }
+    },
+    "shadows": [
+      { "name": "red-hover-glow", "value": "0 10px 40px -10px rgba(216, 0, 50, 0.15)", "purpose": "Card hover only, paired with translateY(-4px) and border at 30% red." },
+      { "name": "cta-hover-halo", "value": "0 10px 15px -3px rgba(216, 0, 50, 0.3), 0 4px 6px -4px rgba(216, 0, 50, 0.3)", "purpose": "Navbar Join Us hover only, paired with scale(1.05)." }
+    ],
+    "motion": [
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Reveal-on-scroll (800ms) and events wall fill-in (700ms)." },
+      { "name": "reveal-on-scroll", "value": "opacity 0 to 1, translateY(20px) to 0, 800ms ease-out-expo, IntersectionObserver threshold 0.15", "purpose": "Sections and cards entering the viewport." },
+      { "name": "wall-fill", "value": "opacity 0.4 to 1, translateY(8px) scale(0.985) to none, 700ms ease-out-expo, 60ms stagger capped at 420ms", "purpose": "Events wall slots settling in sequence." },
+      { "name": "hover-state", "value": "200-300ms", "purpose": "Colour, opacity, glow and underline transitions." },
+      { "name": "grayscale-restore", "value": "filter 500ms", "purpose": "Past-event photos regaining colour on hover or focus." },
+      { "name": "reduced-motion", "value": "@media (prefers-reduced-motion: reduce): no transform, no animation, full opacity", "purpose": "Mandatory override for every entrance animation." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled red mono CTA for Join, Apply and Learn more.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Apply now</a>",
+      "css": ".ds-btn-primary { display: inline-block; background: #D80032; color: #ffffff; padding: 12px 24px; border-radius: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.875rem; line-height: 1.25rem; text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; transition: opacity 200ms; } .ds-btn-primary:hover { opacity: 0.9; } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #D80032; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Ink-stroked mono secondary action (constitution, old site).",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">View our constitution</a>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: #191c1e; border: 1px solid #191c1e; padding: 12px 24px; border-radius: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.875rem; line-height: 1.25rem; text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; transition: background-color 200ms; } .ds-btn-outline:hover { background: #f2f4f6; } .ds-btn-outline:focus-visible { outline: none; box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #D80032; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky translucent bar with mono links, scaling red underline, and Join Us CTA.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-nav-logo\">AUCSS</span><ul class=\"ds-nav-links\"><li><a href=\"#\">Home</a></li><li><a href=\"#\" class=\"is-active\">Events</a></li><li><a href=\"#\">Team</a></li></ul><a class=\"ds-nav-cta\" href=\"#\">Join Us</a></nav>",
+      "css": ".ds-nav { position: sticky; top: 0; height: 80px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; background: rgba(243, 244, 246, 0.9); backdrop-filter: blur(12px); border-bottom: 1px solid #e2e2e2; } .ds-nav-logo { font-family: Inter, sans-serif; font-weight: 900; letter-spacing: -0.025em; } .ds-nav-links { display: flex; gap: 32px; list-style: none; margin: 0; padding: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.025em; } .ds-nav-links a { position: relative; color: #5d3f3c; text-decoration: none; transition: color 150ms; } .ds-nav-links a::after { content: ''; position: absolute; left: 0; bottom: -4px; height: 2px; width: 100%; background: #D80032; transform: scaleX(0); transform-origin: left; transition: transform 300ms ease-out; } .ds-nav-links a:hover, .ds-nav-links a.is-active { color: #D80032; } .ds-nav-links a:hover::after, .ds-nav-links a.is-active::after { transform: scaleX(1); } .ds-nav-cta { background: #D80032; color: #ffffff; padding: 8px 20px; border-radius: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.025em; text-decoration: none; transition: transform 300ms, box-shadow 300ms; } .ds-nav-cta:hover { transform: scale(1.05); box-shadow: 0 10px 15px -3px rgba(216, 0, 50, 0.3), 0 4px 6px -4px rgba(216, 0, 50, 0.3); }"
+    },
+    {
+      "name": "Glow Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Flat white card with hairline border that lifts and glows red on hover.",
+      "html": "<div class=\"ds-card\"><h3>Build stuff</h3><p>Projects, hackathons, and weekend builds with people who will debug with you at 2am.</p></div>",
+      "css": ".ds-card { background: #ffffff; border: 1px solid #e2e2e2; border-radius: 12px; padding: 24px; max-width: 320px; transition: box-shadow 300ms, transform 300ms, border-color 300ms; } .ds-card h3 { margin: 0 0 8px; font-family: Inter, sans-serif; font-size: 1.25rem; font-weight: 600; color: #191c1e; transition: color 150ms; } .ds-card p { margin: 0; font-family: Inter, sans-serif; font-size: 0.875rem; line-height: 1.5; color: #5d3f3c; } .ds-card:hover { box-shadow: 0 10px 40px -10px rgba(216, 0, 50, 0.15); transform: translateY(-4px); border-color: rgba(216, 0, 50, 0.3); } .ds-card:hover h3 { color: #D80032; }"
+    },
+    {
+      "name": "Event Wall Slot",
+      "kind": "custom",
+      "refersTo": "event-slot",
+      "description": "This year's recap: full-colour 7:4 photo with inset caption plate and mono date.",
+      "html": "<a class=\"ds-slot\" href=\"#\"><span class=\"ds-slot-photo\"></span><span class=\"ds-slot-cap\"><span class=\"ds-slot-title\">GitHub Workshop</span><span class=\"ds-slot-date\">18/09/2026</span></span></a>",
+      "css": ".ds-slot { position: relative; display: block; width: 280px; aspect-ratio: 7 / 4; overflow: hidden; border-radius: 8px; border: 1px solid #e2e2e2; background: #ffffff; text-decoration: none; } .ds-slot-photo { position: absolute; inset: 0; background: linear-gradient(135deg, #8a9bb0, #c9b8a6); transition: transform 700ms ease-out; } .ds-slot:hover .ds-slot-photo { transform: scale(1.03); } .ds-slot-cap { position: absolute; left: 8px; right: 8px; bottom: 8px; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 8px 12px; border-radius: 6px; background: rgba(255, 255, 255, 0.95); } .ds-slot-title { font-family: Inter, sans-serif; font-size: 0.875rem; font-weight: 600; color: #191c1e; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; transition: color 150ms; } .ds-slot:hover .ds-slot-title { color: #D80032; } .ds-slot-date { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; color: #5e5e5e; font-variant-numeric: tabular-nums; flex-shrink: 0; } .ds-slot:focus-visible { outline: none; box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #D80032; }"
+    },
+    {
+      "name": "Pending Recap Slot",
+      "kind": "custom",
+      "refersTo": "event-slot-pending",
+      "description": "Dashed red slot for a current-year event whose recap is not up yet.",
+      "html": "<div class=\"ds-pending\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M3 10h18M8 3v4M16 3v4\"/></svg><p class=\"ds-pending-title\">CS Mixer 2026</p><span class=\"ds-pending-rule\"></span><p class=\"ds-pending-note\">Recap goes up after the event.</p></div>",
+      "css": ".ds-pending { width: 280px; aspect-ratio: 7 / 4; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 24px; border-radius: 8px; border: 2px dashed rgba(216, 0, 50, 0.6); background: rgba(216, 0, 50, 0.04); color: #D80032; } .ds-pending-title { margin: 12px 0 0; font-family: Inter, sans-serif; font-size: 1.125rem; font-weight: 700; color: #191c1e; } .ds-pending-rule { display: block; width: 24px; height: 1px; margin: 12px 0; background: rgba(25, 28, 30, 0.3); } .ds-pending-note { margin: 0; max-width: 22ch; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11px; line-height: 1.625; text-transform: uppercase; letter-spacing: 0.18em; color: #5e5e5e; }"
+    },
+    {
+      "name": "Archive Tile",
+      "kind": "custom",
+      "refersTo": "archive-tile",
+      "description": "Past-year recap: grayscale 4:3 photo that regains colour on hover or focus.",
+      "html": "<a class=\"ds-archive\" href=\"#\"><span class=\"ds-archive-photo\"></span><span class=\"ds-archive-title\">Blockchain Workshop</span><span class=\"ds-archive-date\">04/04/2024</span></a>",
+      "css": ".ds-archive { display: block; width: 176px; border-radius: 8px; text-decoration: none; } .ds-archive-photo { display: block; aspect-ratio: 4 / 3; border-radius: 8px; background: linear-gradient(135deg, #c0392b, #2e86de); filter: grayscale(1); transition: filter 500ms; } .ds-archive:hover .ds-archive-photo, .ds-archive:focus-visible .ds-archive-photo { filter: grayscale(0); } .ds-archive-title { display: block; margin-top: 12px; font-family: Inter, sans-serif; font-size: 0.9375rem; font-weight: 600; line-height: 1.375; color: #191c1e; transition: color 150ms; } .ds-archive:hover .ds-archive-title { color: #D80032; } .ds-archive-date { display: block; margin-top: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.75rem; color: #5e5e5e; font-variant-numeric: tabular-nums; } .ds-archive:focus-visible { outline: none; box-shadow: 0 0 0 4px #ffffff, 0 0 0 6px #D80032; }"
+    },
+    {
+      "name": "Invert Band CTA",
+      "kind": "custom",
+      "refersTo": "invert-band",
+      "description": "Closing ink band with white heading and red primary button.",
+      "html": "<section class=\"ds-invert\"><h2>Interested in joining the Society?</h2><p>Inductions open every semester. No prior experience required, just curiosity.</p><a href=\"#\">Apply now</a></section>",
+      "css": ".ds-invert { background: #191c1e; color: #ffffff; text-align: center; padding: 96px 24px; } .ds-invert h2 { margin: 0 0 12px; font-family: Inter, sans-serif; font-size: 1.875rem; font-weight: 600; } .ds-invert p { margin: 0 auto 32px; max-width: 28rem; font-family: Inter, sans-serif; color: rgba(255, 255, 255, 0.7); } .ds-invert a { display: inline-block; background: #D80032; color: #ffffff; padding: 12px 24px; border-radius: 4px; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.1em; text-decoration: none; transition: opacity 200ms; } .ds-invert a:hover { opacity: 0.9; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Annotated Record",
+    "overview": "AUCSS presents itself as a well-kept public record with a warm hand in the margins. The structural half (a formal constitution, elections, an archive of events) is carried by a cool off-white ground, a faint engineering dot grid, hairline borders, and bold, tightly tracked Inter headlines that read like the headings of an official document. The casual half lives in the annotations: JetBrains Mono for dates, buttons and navigation, one hot brand red that marks whatever is live or current, and copy that is allowed to be self-aware.\n\nDensity is moderate and editorial. Pages are a stack of full-bleed bands separated by 1px rules, each band holding a centred column of 1024px (1152px for image-heavy surfaces like the events wall). Colour is almost entirely neutral; brand red carries interaction, state and \"now\", never decoration. Depth is flat at rest and appears only as a response to hover. Motion is short, eased, and always disabled under reduced-motion.\n\nThe events page is one surface in this world: the current academic year is a wall of slots that fills up as recaps land (red marks the pending slot), and earlier years sit below a hard rule as a smaller grayscale strip that regains colour on hover. That present-in-colour, past-in-grayscale treatment is the system's way of telling time, and it already appears on the home page's recent-event cards.",
+    "keyCharacteristics": [
+      "Off-white ground (`background`) with a 32px radial dot grid on hero and lead bands.",
+      "Inter bold for headings, JetBrains Mono for data, controls and navigation.",
+      "Brand red `#D80032` is binding and rare: interaction, active state, and \"current\".",
+      "Flat surfaces, hairline `border` rules, soft red glow only on hover.",
+      "Grayscale for the past, colour for the present.",
+      "Reveal-on-scroll and fill-in motion, all killed by `prefers-reduced-motion`."
+    ],
+    "rules": [
+      { "name": "The Red Means Now Rule", "body": "Brand red marks interaction, the active route, and the current moment (this year's pending recap, a \"Save the Date\" tag). If an element is neither interactive nor current, it is not red.", "section": "colors" },
+      { "name": "The Neutral Field Rule", "body": "No second accent. Depth and grouping come from the four neutral surfaces and hairline borders, not from additional hues.", "section": "colors" },
+      { "name": "The Mono Is Data Rule", "body": "JetBrains Mono is for things a machine could have printed: dates, years, counts, control labels, navigation. Prose and headings are Inter.", "section": "typography" },
+      { "name": "The One Archive Heading Rule", "body": "A section heading may be set in mono (0.75rem, uppercase, 0.2em tracking, `secondary`) only when it is a real heading that names an archive or index and the section beneath it is a dense grid (the events \"Past events\" h2). It is the heading itself, not a label stacked above another heading.", "section": "typography" },
+      { "name": "The Hairline Band Rule", "body": "Sections are separated by a single 1px `border` rule and a surface change, never by shadows, gradients or decorative dividers. The hard break between this year and earlier years on the events page is this same rule.", "section": "layout" },
+      { "name": "The Flat-At-Rest Rule", "body": "Nothing casts a shadow while idle. Depth is a response to the pointer.", "section": "elevation" },
+      { "name": "The Dashed Means Pending Rule", "body": "Dashed borders are reserved for slots awaiting content. A finished thing is solid.", "section": "shapes" }
+    ],
+    "dos": [
+      "**Do** keep brand red `#D80032` for interaction, active state and the current moment only (The Red Means Now Rule).",
+      "**Do** separate sections with a 1px `border` rule plus a surface change, at 80px vertical padding.",
+      "**Do** set dates and academic years in JetBrains Mono with tabular figures, dates as zero-padded `DD/MM/YYYY`.",
+      "**Do** show the past in grayscale and restore colour on hover and focus; show the present in full colour.",
+      "**Do** use dashed frames only for slots awaiting real content, and say honestly what is pending.",
+      "**Do** give every reveal or fill-in animation a `prefers-reduced-motion: reduce` override that shows content immediately.",
+      "**Do** use the 32px `dot-grid` radial pattern on lead bands, at 40 to 60% opacity."
+    ],
+    "donts": [
+      "**Don't** add a second accent hue; grouping comes from the neutral surfaces.",
+      "**Don't** put shadows on resting surfaces; the red glow is hover-only.",
+      "**Don't** fill large areas with red; the only large dark area is the `on-surface` closing CTA band.",
+      "**Don't** set body copy or headings in mono, except the single archive-index h2 pattern.",
+      "**Don't** fabricate placeholder imagery or stats; use real photos or posters, or an empty frame."
+    ]
+  }
+}
