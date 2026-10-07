@@ -22,6 +22,13 @@ export function parseEventDate(date: string): Date {
     return new Date(year, month - 1, day)
 }
 
+// Shows a date as DD/MM/YYYY even if the file says '4/4/2024'.
+export function formatEventDate(date: string): string {
+    const d = parseEventDate(date)
+    const pad = (n: number) => String(n).padStart(2, '0')
+    return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()}`
+}
+
 // Ashoka's academic year starts in August: 18/09/2023 belongs to "2023–24".
 export function getAcademicYear(date: Date): string {
     const start = date.getMonth() >= 7 ? date.getFullYear() : date.getFullYear() - 1

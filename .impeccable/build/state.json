@@ -41,28 +41,29 @@
       "status": "open",
       "openedAt": "2026-10-07T22:10:11.108Z",
       "closedAt": null,
-      "attempts": 2,
+      "attempts": 4,
       "notes": [
         {
           "at": "2026-10-07T22:11:53.006Z",
           "text": "Comp-led gating halted at plates: photo regions are dynamic MDX content; user chose real event photos over generated matches ('Use real photos'). Force refused by phrase check. Continuing code-led against the approved comp as the critique reference."
+        },
+        {
+          "at": "2026-10-07T22:38:40.188Z",
+          "text": "Plates gate left open: --force refused twice by phrase check although the user answered 'Real photos override' (comp photos are placeholders; real MDX event photos replace them). Build finished code-led with photowall.png as critique reference; finish review run fresh (disposition fix), fixes applied."
         }
       ],
       "gate": {
         "ok": false,
         "reasons": [
-          "plate assets/plates/photo1.png: structure 30% against the comp region photo1: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop photo1 as the reference image",
-          "plate assets/plates/photo1.png: scores 34% against the comp region photo1 (structure 30%, color 51%, detail 27%); regenerate with the crop as --ref and the comp-spec plate prompt",
-          "plate assets/plates/photo2.png: structure 27% against the comp region photo2: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop photo2 as the reference image",
-          "plate assets/plates/photo3.png: structure 21% against the comp region photo3: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop photo3 as the reference image",
-          "plate assets/plates/photo4.png: structure 25% against the comp region photo4: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop photo4 as the reference image",
-          "plate assets/plates/photo4.png: scores 35% against the comp region photo4 (structure 25%, color 56%, detail 30%); regenerate with the crop as --ref and the comp-spec plate prompt",
-          "plate assets/plates/photo5.png: structure 17% against the comp region photo5: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop photo5 as the reference image",
-          "plate assets/plates/photo6.png: structure 18% against the comp region photo6: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop photo6 as the reference image",
-          "plate assets/plates/photo6.png: scores 39% against the comp region photo6 (structure 18%, color 72%, detail 40%); regenerate with the crop as --ref and the comp-spec plate prompt"
+          "plate missing for photo1: expected assets/plates/photo1.png; produce it from C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable comp-spec --crop photo1 with C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable generate-image --ref <crop.png> --prompt-file <prompt.txt> --out <plate.png>",
+          "plate missing for photo2: expected assets/plates/photo2.png; produce it from C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable comp-spec --crop photo2 with C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable generate-image --ref <crop.png> --prompt-file <prompt.txt> --out <plate.png>",
+          "plate missing for photo3: expected assets/plates/photo3.png; produce it from C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable comp-spec --crop photo3 with C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable generate-image --ref <crop.png> --prompt-file <prompt.txt> --out <plate.png>",
+          "plate missing for photo4: expected assets/plates/photo4.png; produce it from C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable comp-spec --crop photo4 with C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable generate-image --ref <crop.png> --prompt-file <prompt.txt> --out <plate.png>",
+          "plate missing for photo5: expected assets/plates/photo5.png; produce it from C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable comp-spec --crop photo5 with C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable generate-image --ref <crop.png> --prompt-file <prompt.txt> --out <plate.png>",
+          "plate missing for photo6: expected assets/plates/photo6.png; produce it from C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable comp-spec --crop photo6 with C:/Users/ASUS/.claude/skills/impeccable/scripts/impeccable generate-image --ref <crop.png> --prompt-file <prompt.txt> --out <plate.png>"
         ],
         "summary": "0/6 plates",
-        "at": "2026-10-07T22:11:42.168Z"
+        "at": "2026-10-07T22:33:53.023Z"
       },
       "forced": null
     },
@@ -117,128 +118,32 @@
     "photo1": {
       "id": "photo1",
       "file": "assets/plates/photo1.png",
-      "status": "invalid",
-      "assetHash": "f3d77bed01e4c4725d74c5f0a2dfe2c541bcd8dbac6b8ec1091506ea8b2a78ff",
-      "regionHash": "7130a619e30fc32900e829466daf49ad3312e0d0b86d7c5fb0a68398a8466f69",
-      "referenceHash": "c1bd0752f40c9ab57967dcc74ac10fa29a8783581dbf166546887126498dc3fe",
-      "reference": {
-        "policy": "plate-reference-v2",
-        "excludedPixels": 0,
-        "totalPixels": 38243,
-        "remainingPixels": 38243,
-        "excludedFraction": 0.0,
-        "fullyExcluded": false,
-        "regions": [],
-        "ignoredContainers": []
-      },
-      "compHash": "bd8e256c955fb88d26dd52f1c673e8689d137f3b8df2b8a7a964b3e4ba293eae",
-      "size": "458x334",
-      "score": 0.3375
+      "status": "missing"
     },
     "photo2": {
       "id": "photo2",
       "file": "assets/plates/photo2.png",
-      "status": "invalid",
-      "assetHash": "d52bc99a115a311db975d9ce7ac0241ad440dfaf07cc22673fdb9105bf9acaf2",
-      "regionHash": "56494f4a210850ea7133ffb150c60757e602c7d142adc9d3f7854d25b4697c66",
-      "referenceHash": "c1bd0752f40c9ab57967dcc74ac10fa29a8783581dbf166546887126498dc3fe",
-      "reference": {
-        "policy": "plate-reference-v2",
-        "excludedPixels": 0,
-        "totalPixels": 38243,
-        "remainingPixels": 38243,
-        "excludedFraction": 0.0,
-        "fullyExcluded": false,
-        "regions": [],
-        "ignoredContainers": []
-      },
-      "compHash": "bd8e256c955fb88d26dd52f1c673e8689d137f3b8df2b8a7a964b3e4ba293eae",
-      "size": "458x334",
-      "score": 0.4376
+      "status": "missing"
     },
     "photo3": {
       "id": "photo3",
       "file": "assets/plates/photo3.png",
-      "status": "invalid",
-      "assetHash": "0c42a3135fa1ed38bae5cb9440b76df7718363bfa877580d83a0f32dbc1cc03b",
-      "regionHash": "24ede6f46aefd857901776a01a657cca6eca10c182952646343e8977ee43b8c4",
-      "referenceHash": "c1bd0752f40c9ab57967dcc74ac10fa29a8783581dbf166546887126498dc3fe",
-      "reference": {
-        "policy": "plate-reference-v2",
-        "excludedPixels": 0,
-        "totalPixels": 38243,
-        "remainingPixels": 38243,
-        "excludedFraction": 0.0,
-        "fullyExcluded": false,
-        "regions": [],
-        "ignoredContainers": []
-      },
-      "compHash": "bd8e256c955fb88d26dd52f1c673e8689d137f3b8df2b8a7a964b3e4ba293eae",
-      "size": "458x334",
-      "score": 0.4729
+      "status": "missing"
     },
     "photo4": {
       "id": "photo4",
       "file": "assets/plates/photo4.png",
-      "status": "invalid",
-      "assetHash": "60d44226ca60742cd9451157f352150aac88c6fbbacbdb0b3c7c68d52ec0134c",
-      "regionHash": "4c375cdd8c6b62a21a36c498009e1ffd2e870b1237956a2bde5ee13042a6eec2",
-      "referenceHash": "c1bd0752f40c9ab57967dcc74ac10fa29a8783581dbf166546887126498dc3fe",
-      "reference": {
-        "policy": "plate-reference-v2",
-        "excludedPixels": 0,
-        "totalPixels": 38243,
-        "remainingPixels": 38243,
-        "excludedFraction": 0.0,
-        "fullyExcluded": false,
-        "regions": [],
-        "ignoredContainers": []
-      },
-      "compHash": "bd8e256c955fb88d26dd52f1c673e8689d137f3b8df2b8a7a964b3e4ba293eae",
-      "size": "458x334",
-      "score": 0.3477
+      "status": "missing"
     },
     "photo5": {
       "id": "photo5",
       "file": "assets/plates/photo5.png",
-      "status": "invalid",
-      "assetHash": "9e15e52341b3183dce8b9e33f25ec51306d8cd9e35ea44cc6c66110bcce9ee49",
-      "regionHash": "4461a98ced3f895aa964b425e9f727a5d65614dcc7df6adf8fd859d180a4cded",
-      "referenceHash": "c1bd0752f40c9ab57967dcc74ac10fa29a8783581dbf166546887126498dc3fe",
-      "reference": {
-        "policy": "plate-reference-v2",
-        "excludedPixels": 0,
-        "totalPixels": 38243,
-        "remainingPixels": 38243,
-        "excludedFraction": 0.0,
-        "fullyExcluded": false,
-        "regions": [],
-        "ignoredContainers": []
-      },
-      "compHash": "bd8e256c955fb88d26dd52f1c673e8689d137f3b8df2b8a7a964b3e4ba293eae",
-      "size": "458x334",
-      "score": 0.4599
+      "status": "missing"
     },
     "photo6": {
       "id": "photo6",
       "file": "assets/plates/photo6.png",
-      "status": "invalid",
-      "assetHash": "12bed7c27d63c47748190f29838debe0ced08da90f1cf58cf933e629eff6c7a7",
-      "regionHash": "aab44d8e5ec03a5018dc86e820f772d1ac5903a50f0322106b2227d2c335a58f",
-      "referenceHash": "c1bd0752f40c9ab57967dcc74ac10fa29a8783581dbf166546887126498dc3fe",
-      "reference": {
-        "policy": "plate-reference-v2",
-        "excludedPixels": 0,
-        "totalPixels": 38243,
-        "remainingPixels": 38243,
-        "excludedFraction": 0.0,
-        "fullyExcluded": false,
-        "regions": [],
-        "ignoredContainers": []
-      },
-      "compHash": "bd8e256c955fb88d26dd52f1c673e8689d137f3b8df2b8a7a964b3e4ba293eae",
-      "size": "458x334",
-      "score": 0.3926
+      "status": "missing"
     }
   }
 }
