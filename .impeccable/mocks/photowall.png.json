@@ -1,0 +1,6 @@
+{
+  "tool": "figma generate_image",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt": "photowall decision comp for Events recaps page (full prompt in session transcript)",
+  "approved": true
+}

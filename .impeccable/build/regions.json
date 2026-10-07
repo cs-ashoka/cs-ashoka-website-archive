@@ -1,0 +1,278 @@
+{
+ "regions": [
+  {
+   "id": "nav",
+   "kind": "chrome",
+   "pixelBox": {
+    "x": 0,
+    "y": 0,
+    "w": 1536,
+    "h": 82
+   },
+   "note": "site navbar: logo lockup left, links centre with Events active in red, red JOIN US button right, hairline bottom border"
+  },
+  {
+   "id": "kicker",
+   "kind": "text",
+   "pixelBox": {
+    "x": 80,
+    "y": 124,
+    "w": 135,
+    "h": 22
+   },
+   "note": "EVENT RECAPS small uppercase mono label, gray"
+  },
+  {
+   "id": "headline",
+   "kind": "text",
+   "pixelBox": {
+    "x": 80,
+    "y": 152,
+    "w": 440,
+    "h": 56
+   },
+   "note": "This year \u00b7 2026\u201327 large bold sans headline, near-black"
+  },
+  {
+   "id": "tagline",
+   "kind": "text",
+   "pixelBox": {
+    "x": 1200,
+    "y": 143,
+    "w": 265,
+    "h": 46
+   },
+   "note": "two-line right-aligned uppercase mono gray tagline"
+  },
+  {
+   "id": "mixer-card",
+   "kind": "chrome",
+   "pixelBox": {
+    "x": 80,
+    "y": 229,
+    "w": 334,
+    "h": 194
+   },
+   "note": "dashed red outline card, very pale pink fill, the one occupied slot on this year's wall"
+  },
+  {
+   "id": "mixer-icon",
+   "kind": "chrome",
+   "pixelBox": {
+    "x": 230,
+    "y": 254,
+    "w": 38,
+    "h": 34
+   },
+   "note": "small red calendar icon"
+  },
+  {
+   "id": "mixer-title",
+   "kind": "text",
+   "pixelBox": {
+    "x": 172,
+    "y": 298,
+    "w": 156,
+    "h": 26
+   },
+   "note": "CS Mixer 2026 bold sans title"
+  },
+  {
+   "id": "mixer-note",
+   "kind": "text",
+   "pixelBox": {
+    "x": 158,
+    "y": 360,
+    "w": 182,
+    "h": 38
+   },
+   "note": "RECAP GOES UP AFTER THE EVENT. two-line uppercase mono gray, with short rule above"
+  },
+  {
+   "id": "wall-row1",
+   "kind": "chrome",
+   "pixelBox": {
+    "x": 427,
+    "y": 229,
+    "w": 1035,
+    "h": 194
+   },
+   "note": "three empty light-gray dashed slot frames, each with faint icon",
+   "codeDrawn": true
+  },
+  {
+   "id": "wall-row2",
+   "kind": "chrome",
+   "pixelBox": {
+    "x": 80,
+    "y": 439,
+    "w": 1382,
+    "h": 194
+   },
+   "note": "four empty light-gray dashed slot frames, each with faint icon",
+   "codeDrawn": true
+  },
+  {
+   "id": "earlier-label",
+   "kind": "text",
+   "pixelBox": {
+    "x": 68,
+    "y": 718,
+    "w": 230,
+    "h": 22
+   },
+   "note": "EARLIER YEARS \u00b7 2023-24 uppercase mono gray label"
+  },
+  {
+   "id": "photo1",
+   "kind": "image",
+   "pixelBox": {
+    "x": 66,
+    "y": 751,
+    "w": 229,
+    "h": 167
+   },
+   "note": "grayscale event photo for Python Turtle Workshop, rounded corners",
+   "bleed": true
+  },
+  {
+   "id": "caption1",
+   "kind": "text",
+   "pixelBox": {
+    "x": 66,
+    "y": 926,
+    "w": 232,
+    "h": 54
+   },
+   "note": "Python Turtle Workshop bold title with mono gray date below"
+  },
+  {
+   "id": "photo2",
+   "kind": "image",
+   "pixelBox": {
+    "x": 302,
+    "y": 751,
+    "w": 229,
+    "h": 167
+   },
+   "note": "grayscale event photo for Blockchain Workshop, rounded corners",
+   "bleed": true
+  },
+  {
+   "id": "caption2",
+   "kind": "text",
+   "pixelBox": {
+    "x": 302,
+    "y": 926,
+    "w": 232,
+    "h": 54
+   },
+   "note": "Blockchain Workshop bold title with mono gray date below"
+  },
+  {
+   "id": "photo3",
+   "kind": "image",
+   "pixelBox": {
+    "x": 537,
+    "y": 751,
+    "w": 229,
+    "h": 167
+   },
+   "note": "grayscale event photo for Autumn of Code, rounded corners",
+   "bleed": true
+  },
+  {
+   "id": "caption3",
+   "kind": "text",
+   "pixelBox": {
+    "x": 537,
+    "y": 926,
+    "w": 232,
+    "h": 54
+   },
+   "note": "Autumn of Code bold title with mono gray date below"
+  },
+  {
+   "id": "photo4",
+   "kind": "image",
+   "pixelBox": {
+    "x": 773,
+    "y": 751,
+    "w": 229,
+    "h": 167
+   },
+   "note": "grayscale event photo for Git/GitHub Workshop, rounded corners",
+   "bleed": true
+  },
+  {
+   "id": "caption4",
+   "kind": "text",
+   "pixelBox": {
+    "x": 773,
+    "y": 926,
+    "w": 232,
+    "h": 54
+   },
+   "note": "Git/GitHub Workshop bold title with mono gray date below"
+  },
+  {
+   "id": "photo5",
+   "kind": "image",
+   "pixelBox": {
+    "x": 1009,
+    "y": 751,
+    "w": 229,
+    "h": 167
+   },
+   "note": "grayscale event photo for Academic Societies Fair, rounded corners",
+   "bleed": true
+  },
+  {
+   "id": "caption5",
+   "kind": "text",
+   "pixelBox": {
+    "x": 1009,
+    "y": 926,
+    "w": 232,
+    "h": 54
+   },
+   "note": "Academic Societies Fair bold title with mono gray date below"
+  },
+  {
+   "id": "photo6",
+   "kind": "image",
+   "pixelBox": {
+    "x": 1245,
+    "y": 751,
+    "w": 229,
+    "h": 167
+   },
+   "note": "grayscale event photo for Introduction to Notion, rounded corners",
+   "bleed": true
+  },
+  {
+   "id": "caption6",
+   "kind": "text",
+   "pixelBox": {
+    "x": 1245,
+    "y": 926,
+    "w": 232,
+    "h": 54
+   },
+   "note": "Introduction to Notion bold title with mono gray date below"
+  },
+  {
+   "id": "dotgrid",
+   "kind": "chrome",
+   "codeDrawn": true,
+   "pixelBox": {
+    "x": 0,
+    "y": 100,
+    "w": 75,
+    "h": 100
+   },
+   "note": "faint gray dot-grid pattern on off-white ground, CSS radial-gradient like the home hero"
+  }
+ ],
+ "allowUncovered": true
+}

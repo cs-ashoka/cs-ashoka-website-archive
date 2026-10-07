@@ -1,0 +1,6 @@
+{
+  "tool": "figma generate_image",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_summary": "Two Temperatures comp: red field 'This year.' with CS Mixer 2026 feature card, grayscale past events photo grid (Figma gpt-image-2.5-sunburst)",
+  "note": "full prompt recorded in session; generated via Figma MCP"
+}

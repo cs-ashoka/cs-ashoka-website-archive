@@ -10,9 +10,33 @@ type EventPost = {
     date: string,
     imgList: string[]
     type: "image" | "video"
+    // Optional frontmatter `cover:` picks the photo shown on the /events page.
+    cover?: string
 }
 
 const postsDirectory = path.join(process.cwd(), '/src/eventposts')
+
+// Event dates are written as DD/MM/YYYY (e.g. '25/09/2023' or '4/4/2024').
+export function parseEventDate(date: string): Date {
+    const [day, month, year] = String(date).split('/').map(Number)
+    return new Date(year, month - 1, day)
+}
+
+// Ashoka's academic year starts in August: 18/09/2023 belongs to "2023–24".
+export function getAcademicYear(date: Date): string {
+    const start = date.getMonth() >= 7 ? date.getFullYear() : date.getFullYear() - 1
+    return `${start}–${String(start + 1).slice(-2)}`
+}
+
+// The photo shown for an event: `cover` if set, else the first image in the
+// gallery, else /img/events/<file-name>.png.
+export function getCoverImage(event: EventPost): string {
+    if (event.cover) return event.cover
+    const imgList = event.imgList ?? []
+    const types = (event.type ?? []) as unknown as string[]
+    const firstImage = imgList.find((_, i) => types[i] !== 'video')
+    return firstImage ?? `/img/events/${event.slug}.png`
+}
 
 export function getSortedPostsData() {
     // Get file names under /posts
@@ -33,14 +57,17 @@ export function getSortedPostsData() {
             title: matterResult.data.title,
             date: matterResult.data.date,
             imgList: matterResult.data.imgList,
-            type: matterResult.data.type
+            type: matterResult.data.type,
+            cover: matterResult.data.cover
         }
 
         // Combine the data with the id
         return eventPost
     });
-    // Sort posts by date
-    return allPostsData.sort((a, b) => a.date < b.date ? 1 : -1);
+    // Sort posts by date, newest first
+    return allPostsData.sort(
+        (a, b) => parseEventDate(b.date).getTime() - parseEventDate(a.date).getTime()
+    );
 }
 
 export async function getPostData(slug: string) {
@@ -62,7 +89,7 @@ export async function getPostData(slug: string) {
         title: matterResult.data.title,
         date: matterResult.data.date,
         contentHtml,
-        imgList: matterResult.data.imgList, 
+        imgList: matterResult.data.imgList,
         type: matterResult.data.type
     }
 

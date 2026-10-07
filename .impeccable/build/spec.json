@@ -1,0 +1,1520 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-10-07T22:09:31.018Z",
+  "comp": ".impeccable/mocks/photowall.png",
+  "warnings": [
+    "region wall-row1: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region wall-row2: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)",
+    "region photo1: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region photo2: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region photo3: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region photo4: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region photo5: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region photo6: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region dotgrid: \"codeDrawn\": true set in the regions file (the painted-material refusal is overridden: code draws this region)"
+  ],
+  "uncoveredInkCells": [
+    "A1",
+    "D1"
+  ],
+  "compSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect": 1.5,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#f8f8f8",
+      "coverage": 0.8609
+    },
+    {
+      "hex": "#898989",
+      "coverage": 0.054
+    },
+    {
+      "hex": "#3e3e3e",
+      "coverage": 0.0435
+    },
+    {
+      "hex": "#101010",
+      "coverage": 0.0313
+    },
+    {
+      "hex": "#bcbcbc",
+      "coverage": 0.0103
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0235,
+      "strength": 0.2787
+    },
+    {
+      "y": 0.0471,
+      "strength": 0.2518
+    },
+    {
+      "y": 0.1647,
+      "strength": 0.2603
+    },
+    {
+      "y": 0.1882,
+      "strength": 0.2065
+    },
+    {
+      "y": 0.7294,
+      "strength": 0.9949
+    },
+    {
+      "y": 0.8941,
+      "strength": 1
+    },
+    {
+      "y": 0.9294,
+      "strength": 0.6703
+    }
+  ],
+  "regions": [
+    {
+      "id": "nav",
+      "kind": "chrome",
+      "note": "site navbar: logo lockup left, links centre with Events active in red, red JOIN US button right, hairline bottom border",
+      "grid": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.0801
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 82
+      },
+      "aspect": 18.7317,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9472
+        },
+        {
+          "hex": "#c51029",
+          "coverage": 0.0372
+        },
+        {
+          "hex": "#080808",
+          "coverage": 0.0058
+        },
+        {
+          "hex": "#b4b4bb",
+          "coverage": 0.0058
+        },
+        {
+          "hex": "#777782",
+          "coverage": 0.0041
+        }
+      ],
+      "detail": {
+        "energy": 24.7582
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "kicker",
+      "kind": "text",
+      "note": "EVENT RECAPS small uppercase mono label, gray",
+      "grid": null,
+      "box": {
+        "x": 0.0521,
+        "y": 0.1211,
+        "w": 0.0879,
+        "h": 0.0215
+      },
+      "px": {
+        "x": 80,
+        "y": 124,
+        "w": 135,
+        "h": 22
+      },
+      "aspect": 6.1364,
+      "palette": [
+        {
+          "hex": "#f6f6f6",
+          "coverage": 0.8
+        },
+        {
+          "hex": "#c1c3ca",
+          "coverage": 0.0917
+        },
+        {
+          "hex": "#969a9e",
+          "coverage": 0.0556
+        },
+        {
+          "hex": "#6a6c74",
+          "coverage": 0.0528
+        }
+      ],
+      "detail": {
+        "energy": 28.2836
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 12,
+          "capHeightPx": 11.7,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.6838,
+          "advTall": 0.6838,
+          "advX": null,
+          "gap": 0.2279,
+          "xRatio": null,
+          "stemW": 0.1838,
+          "contrast": 1.1864,
+          "serif": 1.8961,
+          "densTall": 0.5473,
+          "densX": null,
+          "weight": 0.5473
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "This year · 2026–27 large bold sans headline, near-black",
+      "grid": null,
+      "box": {
+        "x": 0.0521,
+        "y": 0.1484,
+        "w": 0.2865,
+        "h": 0.0547
+      },
+      "px": {
+        "x": 80,
+        "y": 152,
+        "w": 440,
+        "h": 56
+      },
+      "aspect": 7.8571,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.7566
+        },
+        {
+          "hex": "#090909",
+          "coverage": 0.1978
+        },
+        {
+          "hex": "#b3b3b4",
+          "coverage": 0.0198
+        },
+        {
+          "hex": "#363738",
+          "coverage": 0.0133
+        },
+        {
+          "hex": "#6d7072",
+          "coverage": 0.0126
+        }
+      ],
+      "detail": {
+        "energy": 81.0094
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 16,
+          "capHeightPx": 33.3,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6907,
+          "advTall": 0.7207,
+          "advX": 0.6757,
+          "gap": 0.1201,
+          "xRatio": 0.745,
+          "stemW": 0.2198,
+          "contrast": 1.2321,
+          "serif": 0.7732,
+          "densTall": 0.561,
+          "densX": 0.6458,
+          "weight": 0.561
+        },
+        "widthClass": "normal",
+        "weightClass": "bold",
+        "chosen": {
+          "family": "Inter",
+          "weight": 700,
+          "fontSizePx": 46,
+          "source": "index",
+          "fp": {
+            "lines": 1,
+            "glyphs": 16,
+            "capHeightPx": 33.2,
+            "inkIsDark": true,
+            "allCaps": false,
+            "advance": 0.6921,
+            "advTall": 0.7222,
+            "advX": 0.662,
+            "gap": 0.1505,
+            "xRatio": 0.7553,
+            "stemW": 0.2097,
+            "contrast": 1.2383,
+            "serif": 1,
+            "densTall": 0.5567,
+            "densX": 0.6325,
+            "weight": 0.5567
+          },
+          "stamp": "99b0376513a6"
+        }
+      }
+    },
+    {
+      "id": "tagline",
+      "kind": "text",
+      "note": "two-line right-aligned uppercase mono gray tagline",
+      "grid": null,
+      "box": {
+        "x": 0.7813,
+        "y": 0.1396,
+        "w": 0.1725,
+        "h": 0.0449
+      },
+      "px": {
+        "x": 1200,
+        "y": 143,
+        "w": 265,
+        "h": 46
+      },
+      "aspect": 5.7609,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.882
+        },
+        {
+          "hex": "#7b7b80",
+          "coverage": 0.0541
+        },
+        {
+          "hex": "#c1c4c9",
+          "coverage": 0.0323
+        },
+        {
+          "hex": "#9fa0a3",
+          "coverage": 0.0309
+        },
+        {
+          "hex": "#585868",
+          "coverage": 0.0007
+        }
+      ],
+      "detail": {
+        "energy": 38.8445
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 48,
+          "capHeightPx": 9.5,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.6729,
+          "advTall": 0.6729,
+          "advX": null,
+          "gap": 0.1417,
+          "xRatio": null,
+          "stemW": 0.2107,
+          "contrast": 1.0553,
+          "serif": 1.2313,
+          "densTall": 0.6049,
+          "densX": null,
+          "weight": 0.6049
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "mixer-card",
+      "kind": "chrome",
+      "note": "dashed red outline card, very pale pink fill, the one occupied slot on this year's wall",
+      "grid": null,
+      "box": {
+        "x": 0.0521,
+        "y": 0.2236,
+        "w": 0.2174,
+        "h": 0.1895
+      },
+      "px": {
+        "x": 80,
+        "y": 229,
+        "w": 334,
+        "h": 194
+      },
+      "aspect": 1.7216,
+      "palette": [
+        {
+          "hex": "#f8f7f8",
+          "coverage": 0.9572
+        },
+        {
+          "hex": "#e696a2",
+          "coverage": 0.0166
+        },
+        {
+          "hex": "#808083",
+          "coverage": 0.01
+        },
+        {
+          "hex": "#090909",
+          "coverage": 0.009
+        },
+        {
+          "hex": "#bbb9bb",
+          "coverage": 0.0073
+        }
+      ],
+      "detail": {
+        "energy": 19.1351
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "mixer-icon",
+      "kind": "chrome",
+      "note": "small red calendar icon",
+      "grid": null,
+      "box": {
+        "x": 0.1497,
+        "y": 0.248,
+        "w": 0.0247,
+        "h": 0.0332
+      },
+      "px": {
+        "x": 230,
+        "y": 254,
+        "w": 38,
+        "h": 34
+      },
+      "aspect": 1.1176,
+      "palette": [
+        {
+          "hex": "#f8f6f7",
+          "coverage": 0.6282
+        },
+        {
+          "hex": "#c00a21",
+          "coverage": 0.1795
+        },
+        {
+          "hex": "#d4596b",
+          "coverage": 0.0705
+        },
+        {
+          "hex": "#f5cbd2",
+          "coverage": 0.0641
+        },
+        {
+          "hex": "#c82a48",
+          "coverage": 0.0577
+        }
+      ],
+      "detail": {
+        "energy": 15.0161
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "mixer-title",
+      "kind": "text",
+      "note": "CS Mixer 2026 bold sans title",
+      "grid": null,
+      "box": {
+        "x": 0.112,
+        "y": 0.291,
+        "w": 0.1016,
+        "h": 0.0254
+      },
+      "px": {
+        "x": 172,
+        "y": 298,
+        "w": 156,
+        "h": 26
+      },
+      "aspect": 6,
+      "palette": [
+        {
+          "hex": "#f7f5f6",
+          "coverage": 0.7127
+        },
+        {
+          "hex": "#0b0c0c",
+          "coverage": 0.1685
+        },
+        {
+          "hex": "#3f3f3f",
+          "coverage": 0.0518
+        },
+        {
+          "hex": "#6e7274",
+          "coverage": 0.0389
+        },
+        {
+          "hex": "#b7b3b4",
+          "coverage": 0.0281
+        }
+      ],
+      "detail": {
+        "energy": 62.8756
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 15.6,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7043,
+          "advTall": 0.7523,
+          "advX": 0.6723,
+          "gap": 0.096,
+          "xRatio": 0.7541,
+          "stemW": 0.2263,
+          "contrast": 1.1534,
+          "serif": 0.5135,
+          "densTall": 0.5861,
+          "densX": 0.576,
+          "weight": 0.5861
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "mixer-note",
+      "kind": "text",
+      "note": "RECAP GOES UP AFTER THE EVENT. two-line uppercase mono gray, with short rule above",
+      "grid": null,
+      "box": {
+        "x": 0.1029,
+        "y": 0.3516,
+        "w": 0.1185,
+        "h": 0.0371
+      },
+      "px": {
+        "x": 158,
+        "y": 360,
+        "w": 182,
+        "h": 38
+      },
+      "aspect": 4.7895,
+      "palette": [
+        {
+          "hex": "#f7f6f7",
+          "coverage": 0.826
+        },
+        {
+          "hex": "#c4c1c4",
+          "coverage": 0.1059
+        },
+        {
+          "hex": "#8f8c92",
+          "coverage": 0.0429
+        },
+        {
+          "hex": "#696c74",
+          "coverage": 0.0252
+        }
+      ],
+      "detail": {
+        "energy": 27.6539
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 2,
+          "glyphs": 24,
+          "capHeightPx": 10.6,
+          "inkIsDark": true,
+          "allCaps": true,
+          "advance": 0.6403,
+          "advTall": 0.6403,
+          "advX": null,
+          "gap": 0.2241,
+          "xRatio": null,
+          "stemW": 0.1918,
+          "contrast": 1.0982,
+          "serif": 0.2627,
+          "densTall": 0.5749,
+          "densX": null,
+          "weight": 0.5749
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "wall-row1",
+      "kind": "chrome",
+      "note": "three empty light-gray dashed slot frames, each with faint icon",
+      "grid": null,
+      "codeDrawn": true,
+      "box": {
+        "x": 0.278,
+        "y": 0.2236,
+        "w": 0.6738,
+        "h": 0.1895
+      },
+      "px": {
+        "x": 427,
+        "y": 229,
+        "w": 1035,
+        "h": 194
+      },
+      "aspect": 5.3351,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 2.3703
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "wall-row2",
+      "kind": "chrome",
+      "note": "four empty light-gray dashed slot frames, each with faint icon",
+      "grid": null,
+      "codeDrawn": true,
+      "box": {
+        "x": 0.0521,
+        "y": 0.4287,
+        "w": 0.8997,
+        "h": 0.1895
+      },
+      "px": {
+        "x": 80,
+        "y": 439,
+        "w": 1382,
+        "h": 194
+      },
+      "aspect": 7.1237,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 2.2475
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      }
+    },
+    {
+      "id": "earlier-label",
+      "kind": "text",
+      "note": "EARLIER YEARS · 2023-24 uppercase mono gray label",
+      "grid": null,
+      "box": {
+        "x": 0.0443,
+        "y": 0.7012,
+        "w": 0.1497,
+        "h": 0.0215
+      },
+      "px": {
+        "x": 68,
+        "y": 718,
+        "w": 230,
+        "h": 22
+      },
+      "aspect": 10.4545,
+      "palette": [
+        {
+          "hex": "#f6f6f7",
+          "coverage": 0.8425
+        },
+        {
+          "hex": "#73777e",
+          "coverage": 0.0812
+        },
+        {
+          "hex": "#b5b7bc",
+          "coverage": 0.0763
+        }
+      ],
+      "detail": {
+        "energy": 39.324
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 18,
+          "capHeightPx": 11.8,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6655,
+          "advTall": 0.6796,
+          "advX": null,
+          "gap": 0.2265,
+          "xRatio": 0.5326,
+          "stemW": 0.1896,
+          "contrast": 1.1431,
+          "serif": 2.2145,
+          "densTall": 0.5489,
+          "densX": null,
+          "weight": 0.5489
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "photo1",
+      "kind": "image",
+      "note": "grayscale event photo for Python Turtle Workshop, rounded corners",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.043,
+        "y": 0.7334,
+        "w": 0.1491,
+        "h": 0.1631
+      },
+      "px": {
+        "x": 66,
+        "y": 751,
+        "w": 229,
+        "h": 167
+      },
+      "aspect": 1.3713,
+      "palette": [
+        {
+          "hex": "#807f7f",
+          "coverage": 0.4189
+        },
+        {
+          "hex": "#dedede",
+          "coverage": 0.2432
+        },
+        {
+          "hex": "#181817",
+          "coverage": 0.2044
+        },
+        {
+          "hex": "#4c4c4c",
+          "coverage": 0.1086
+        },
+        {
+          "hex": "#ababab",
+          "coverage": 0.0249
+        }
+      ],
+      "detail": {
+        "energy": 15.9829
+      },
+      "medium": "raster",
+      "plate": "assets/plates/photo1.png",
+      "text": null
+    },
+    {
+      "id": "caption1",
+      "kind": "text",
+      "note": "Python Turtle Workshop bold title with mono gray date below",
+      "grid": null,
+      "box": {
+        "x": 0.043,
+        "y": 0.9043,
+        "w": 0.151,
+        "h": 0.0527
+      },
+      "px": {
+        "x": 66,
+        "y": 926,
+        "w": 232,
+        "h": 54
+      },
+      "aspect": 4.2963,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8712
+        },
+        {
+          "hex": "#0b0b0e",
+          "coverage": 0.0565
+        },
+        {
+          "hex": "#afb2b6",
+          "coverage": 0.0386
+        },
+        {
+          "hex": "#76797d",
+          "coverage": 0.0172
+        },
+        {
+          "hex": "#303538",
+          "coverage": 0.0165
+        }
+      ],
+      "detail": {
+        "energy": 39.0474
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 17,
+          "capHeightPx": 12.4,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6986,
+          "advTall": 0.6986,
+          "advX": 0.6986,
+          "gap": 0.1075,
+          "xRatio": 0.7655,
+          "stemW": 0.2232,
+          "contrast": 1.1752,
+          "serif": 0.3332,
+          "densTall": 0.5852,
+          "densX": 0.6614,
+          "weight": 0.5852
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "photo2",
+      "kind": "image",
+      "note": "grayscale event photo for Blockchain Workshop, rounded corners",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.1966,
+        "y": 0.7334,
+        "w": 0.1491,
+        "h": 0.1631
+      },
+      "px": {
+        "x": 302,
+        "y": 751,
+        "w": 229,
+        "h": 167
+      },
+      "aspect": 1.3713,
+      "palette": [
+        {
+          "hex": "#878787",
+          "coverage": 0.4107
+        },
+        {
+          "hex": "#0f0f0f",
+          "coverage": 0.2723
+        },
+        {
+          "hex": "#3d3d3d",
+          "coverage": 0.2324
+        },
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.055
+        },
+        {
+          "hex": "#b8b8b8",
+          "coverage": 0.0296
+        }
+      ],
+      "detail": {
+        "energy": 16.5079
+      },
+      "medium": "raster",
+      "plate": "assets/plates/photo2.png",
+      "text": null
+    },
+    {
+      "id": "caption2",
+      "kind": "text",
+      "note": "Blockchain Workshop bold title with mono gray date below",
+      "grid": null,
+      "box": {
+        "x": 0.1966,
+        "y": 0.9043,
+        "w": 0.151,
+        "h": 0.0527
+      },
+      "px": {
+        "x": 302,
+        "y": 926,
+        "w": 232,
+        "h": 54
+      },
+      "aspect": 4.2963,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.8826
+        },
+        {
+          "hex": "#0f0f11",
+          "coverage": 0.0569
+        },
+        {
+          "hex": "#969a9f",
+          "coverage": 0.0216
+        },
+        {
+          "hex": "#676c6f",
+          "coverage": 0.0194
+        },
+        {
+          "hex": "#bfc0c4",
+          "coverage": 0.0194
+        }
+      ],
+      "detail": {
+        "energy": 36.8751
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 18,
+          "capHeightPx": 12.5,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6779,
+          "advTall": 0.658,
+          "advX": 0.6779,
+          "gap": 0.0798,
+          "xRatio": 0.7447,
+          "stemW": 0.2327,
+          "contrast": 1.1663,
+          "serif": null,
+          "densTall": 0.629,
+          "densX": 0.6602,
+          "weight": 0.629
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "photo3",
+      "kind": "image",
+      "note": "grayscale event photo for Autumn of Code, rounded corners",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.3496,
+        "y": 0.7334,
+        "w": 0.1491,
+        "h": 0.1631
+      },
+      "px": {
+        "x": 537,
+        "y": 751,
+        "w": 229,
+        "h": 167
+      },
+      "aspect": 1.3713,
+      "palette": [
+        {
+          "hex": "#474747",
+          "coverage": 0.295
+        },
+        {
+          "hex": "#a0a0a0",
+          "coverage": 0.2864
+        },
+        {
+          "hex": "#1b1b1b",
+          "coverage": 0.225
+        },
+        {
+          "hex": "#707170",
+          "coverage": 0.1369
+        },
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.0567
+        }
+      ],
+      "detail": {
+        "energy": 28.9456
+      },
+      "medium": "raster",
+      "plate": "assets/plates/photo3.png",
+      "text": null
+    },
+    {
+      "id": "caption3",
+      "kind": "text",
+      "note": "Autumn of Code bold title with mono gray date below",
+      "grid": null,
+      "box": {
+        "x": 0.3496,
+        "y": 0.9043,
+        "w": 0.151,
+        "h": 0.0527
+      },
+      "px": {
+        "x": 537,
+        "y": 926,
+        "w": 232,
+        "h": 54
+      },
+      "aspect": 4.2963,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.9038
+        },
+        {
+          "hex": "#0d0f12",
+          "coverage": 0.0363
+        },
+        {
+          "hex": "#afb1b3",
+          "coverage": 0.0342
+        },
+        {
+          "hex": "#6b6f75",
+          "coverage": 0.0199
+        },
+        {
+          "hex": "#3c4046",
+          "coverage": 0.0057
+        }
+      ],
+      "detail": {
+        "energy": 28.3202
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 11,
+          "capHeightPx": 12.4,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6981,
+          "advTall": 0.8861,
+          "advX": 0.6981,
+          "gap": 0.094,
+          "xRatio": 0.7651,
+          "stemW": 0.2298,
+          "contrast": 1.1686,
+          "serif": 0.3026,
+          "densTall": 0.5314,
+          "densX": 0.6628,
+          "weight": 0.5314
+        },
+        "widthClass": "normal",
+        "weightClass": "medium"
+      }
+    },
+    {
+      "id": "photo4",
+      "kind": "image",
+      "note": "grayscale event photo for Git/GitHub Workshop, rounded corners",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.5033,
+        "y": 0.7334,
+        "w": 0.1491,
+        "h": 0.1631
+      },
+      "px": {
+        "x": 773,
+        "y": 751,
+        "w": 229,
+        "h": 167
+      },
+      "aspect": 1.3713,
+      "palette": [
+        {
+          "hex": "#aeaeae",
+          "coverage": 0.4016
+        },
+        {
+          "hex": "#141414",
+          "coverage": 0.2131
+        },
+        {
+          "hex": "#484848",
+          "coverage": 0.2061
+        },
+        {
+          "hex": "#797878",
+          "coverage": 0.125
+        },
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.0543
+        }
+      ],
+      "detail": {
+        "energy": 19.7924
+      },
+      "medium": "raster",
+      "plate": "assets/plates/photo4.png",
+      "text": null
+    },
+    {
+      "id": "caption4",
+      "kind": "text",
+      "note": "Git/GitHub Workshop bold title with mono gray date below",
+      "grid": null,
+      "box": {
+        "x": 0.5033,
+        "y": 0.9043,
+        "w": 0.151,
+        "h": 0.0527
+      },
+      "px": {
+        "x": 773,
+        "y": 926,
+        "w": 232,
+        "h": 54
+      },
+      "aspect": 4.2963,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.8813
+        },
+        {
+          "hex": "#0b0c0e",
+          "coverage": 0.0453
+        },
+        {
+          "hex": "#858789",
+          "coverage": 0.0331
+        },
+        {
+          "hex": "#b2b5b8",
+          "coverage": 0.0266
+        },
+        {
+          "hex": "#525356",
+          "coverage": 0.0137
+        }
+      ],
+      "detail": {
+        "energy": 38.1027
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 16,
+          "capHeightPx": 12.5,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.7375,
+          "advTall": 0.7574,
+          "advX": 0.6777,
+          "gap": 0.0797,
+          "xRatio": 0.7438,
+          "stemW": 0.2325,
+          "contrast": 1.1651,
+          "serif": 0.248,
+          "densTall": 0.5878,
+          "densX": 0.68,
+          "weight": 0.5878
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "photo5",
+      "kind": "image",
+      "note": "grayscale event photo for Academic Societies Fair, rounded corners",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.6569,
+        "y": 0.7334,
+        "w": 0.1491,
+        "h": 0.1631
+      },
+      "px": {
+        "x": 1009,
+        "y": 751,
+        "w": 229,
+        "h": 167
+      },
+      "aspect": 1.3713,
+      "palette": [
+        {
+          "hex": "#323232",
+          "coverage": 0.5692
+        },
+        {
+          "hex": "#6f6f6f",
+          "coverage": 0.1498
+        },
+        {
+          "hex": "#aeafae",
+          "coverage": 0.1491
+        },
+        {
+          "hex": "#090908",
+          "coverage": 0.0683
+        },
+        {
+          "hex": "#f4f4f4",
+          "coverage": 0.0635
+        }
+      ],
+      "detail": {
+        "energy": 31.0116
+      },
+      "medium": "raster",
+      "plate": "assets/plates/photo5.png",
+      "text": null
+    },
+    {
+      "id": "caption5",
+      "kind": "text",
+      "note": "Academic Societies Fair bold title with mono gray date below",
+      "grid": null,
+      "box": {
+        "x": 0.6569,
+        "y": 0.9043,
+        "w": 0.151,
+        "h": 0.0527
+      },
+      "px": {
+        "x": 1009,
+        "y": 926,
+        "w": 232,
+        "h": 54
+      },
+      "aspect": 4.2963,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8733
+        },
+        {
+          "hex": "#0b0c0f",
+          "coverage": 0.058
+        },
+        {
+          "hex": "#adb1b4",
+          "coverage": 0.0315
+        },
+        {
+          "hex": "#707174",
+          "coverage": 0.0243
+        },
+        {
+          "hex": "#393d3d",
+          "coverage": 0.0129
+        }
+      ],
+      "detail": {
+        "energy": 38.9822
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 21,
+          "capHeightPx": 12.7,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6846,
+          "advTall": 0.474,
+          "advX": 0.6846,
+          "gap": 0.079,
+          "xRatio": 0.7513,
+          "stemW": 0.2267,
+          "contrast": 1.2061,
+          "serif": 0.7952,
+          "densTall": 0.6236,
+          "densX": 0.6577,
+          "weight": 0.6236
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "photo6",
+      "kind": "image",
+      "note": "grayscale event photo for Introduction to Notion, rounded corners",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.8105,
+        "y": 0.7334,
+        "w": 0.1491,
+        "h": 0.1631
+      },
+      "px": {
+        "x": 1245,
+        "y": 751,
+        "w": 229,
+        "h": 167
+      },
+      "aspect": 1.3713,
+      "palette": [
+        {
+          "hex": "#959595",
+          "coverage": 0.4258
+        },
+        {
+          "hex": "#191918",
+          "coverage": 0.2955
+        },
+        {
+          "hex": "#505050",
+          "coverage": 0.2181
+        },
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.054
+        },
+        {
+          "hex": "#cdcfcf",
+          "coverage": 0.0066
+        }
+      ],
+      "detail": {
+        "energy": 18.9979
+      },
+      "medium": "raster",
+      "plate": "assets/plates/photo6.png",
+      "text": null
+    },
+    {
+      "id": "caption6",
+      "kind": "text",
+      "note": "Introduction to Notion bold title with mono gray date below",
+      "grid": null,
+      "box": {
+        "x": 0.8105,
+        "y": 0.9043,
+        "w": 0.151,
+        "h": 0.0527
+      },
+      "px": {
+        "x": 1245,
+        "y": 926,
+        "w": 232,
+        "h": 54
+      },
+      "aspect": 4.2963,
+      "palette": [
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.882
+        },
+        {
+          "hex": "#0c0f13",
+          "coverage": 0.0486
+        },
+        {
+          "hex": "#a6a8aa",
+          "coverage": 0.0372
+        },
+        {
+          "hex": "#393d42",
+          "coverage": 0.0186
+        },
+        {
+          "hex": "#72777c",
+          "coverage": 0.0136
+        }
+      ],
+      "detail": {
+        "energy": 36.4038
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": false,
+        "rules": false
+      },
+      "type": {
+        "comp": {
+          "lines": 1,
+          "glyphs": 19,
+          "capHeightPx": 12.5,
+          "inkIsDark": true,
+          "allCaps": false,
+          "advance": 0.6792,
+          "advTall": 0.4794,
+          "advX": 0.6992,
+          "gap": 0.0799,
+          "xRatio": 0.7456,
+          "stemW": 0.2254,
+          "contrast": 1.1166,
+          "serif": null,
+          "densTall": 0.6417,
+          "densX": 0.6546,
+          "weight": 0.6417
+        },
+        "widthClass": "normal",
+        "weightClass": "bold"
+      }
+    },
+    {
+      "id": "dotgrid",
+      "kind": "chrome",
+      "note": "faint gray dot-grid pattern on off-white ground, CSS radial-gradient like the home hero",
+      "grid": null,
+      "codeDrawn": true,
+      "box": {
+        "x": 0,
+        "y": 0.0977,
+        "w": 0.0488,
+        "h": 0.0977
+      },
+      "px": {
+        "x": 0,
+        "y": 100,
+        "w": 75,
+        "h": 100
+      },
+      "aspect": 0.75,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 1
+        }
+      ],
+      "detail": {
+        "energy": 0.5607
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null,
+      "surface": {
+        "flat": true,
+        "rules": false
+      }
+    }
+  ],
+  "compSha256": "ffb55bcae262f462524749d430ef611832671c66f571527ba87e0c2e3b79b41b",
+  "regionsSource": {
+    "path": ".impeccable/build/regions.json",
+    "sha256": "e5b1dad0175803ef91ea3dd2cf8910121f6655e1f7276db2afc2421db332dfbe"
+  }
+}

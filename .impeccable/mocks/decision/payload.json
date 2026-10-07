@@ -1,0 +1,43 @@
+{
+  "title": "Choose the events page structure",
+  "question": "This round treats the page as recaps of events that have already happened. This year's recaps come first, and older recaps are pushed back clearly. For now, this year has no recaps yet: CS Mixer 2026 hasn't happened, so its recap shows as 'coming after the event'. Lock one in, steer, or re-roll.",
+  "options": [
+    {
+      "id": "photowall",
+      "label": "The Photo Wall",
+      "kicker": "THE ROLL",
+      "lineage": "the society noticeboard after an event",
+      "thesis": "This year's recaps are a big wall of photos pinned up as events happen. Past years shrink to a smaller grayscale wall below.",
+      "palette": ["#D80032", "#f7f9fb", "#ffffff", "#191c1e", "#9a9a9a"],
+      "materials": ["full-colour event photos", "mono captions", "grayscale archive wall"],
+      "viewport": "Headline 'Recaps · 2026–27' above a wide wall. Right now it holds a single open slot: 'CS Mixer 2026: recap after the event'. Below a hard break, 'Earlier years' shows the 2023–24 recaps as small grayscale photos that turn colour on hover.",
+      "risk": "Until there are photos, the current-year wall is mostly an empty state.",
+      "comp": ".impeccable/mocks/decision/photowall.png"
+    },
+    {
+      "id": "yearbook",
+      "label": "The Yearbook",
+      "lineage": "university yearbook volumes",
+      "thesis": "Each academic year is one volume. This year is the open volume; past years are closed volumes on a shelf.",
+      "palette": ["#D80032", "#ffffff", "#191c1e", "#eceef0"],
+      "materials": ["open chapter spread", "volume spines", "mono volume numbers"],
+      "viewport": "A large open 'Volume 2026–27' chapter fills the top, with its recap list (the CS Mixer recap shown as forthcoming). Underneath, a shelf row of closed volumes, '2023–24 · 6 recaps', opens that year's archive.",
+      "risk": "The volume idea has to stay structural. If it turns into book illustrations, it becomes a costume.",
+      "comp": ".impeccable/mocks/decision/yearbook.png"
+    },
+    {
+      "id": "leadrail",
+      "label": "Lead Stories + Archive Rail",
+      "lineage": "newsroom front page with an index column",
+      "thesis": "This year's recaps get the wide main column as big stories. Every past year collapses into a narrow, quiet index rail on the side.",
+      "palette": ["#D80032", "#ffffff", "#191c1e", "#f2f4f6"],
+      "materials": ["wide story column", "narrow mono index rail", "hairline rules"],
+      "viewport": "On the left, about two-thirds wide: '2026–27' with the lead recap slot (CS Mixer 2026, recap after the event). On the right, a narrow rail titled 'Archive' lists the 2023–24 recaps with dates, as plain text links.",
+      "risk": "On phones the rail has to drop below the main column, which weakens the side-by-side contrast.",
+      "comp": ".impeccable/mocks/decision/leadrail.png"
+    }
+  ],
+  "reroll": true,
+  "buildPath": { "value": "comp", "toggle": true },
+  "steer": true
+}

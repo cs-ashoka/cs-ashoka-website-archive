@@ -1,0 +1,6 @@
+{
+  "tool": "figma generate_image",
+  "model": "gpt-image-2.5-sunburst",
+  "prompt_summary": "Year Strip comp: Events page, 2026-27 month strip with CS Mixer 2026 DATE TBA block, grayscale past events list (Figma gpt-image-2.5-sunburst, 2048x1280 requested)",
+  "note": "full prompt recorded in session; generated via Figma MCP"
+}

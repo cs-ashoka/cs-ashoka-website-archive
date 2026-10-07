@@ -93,3 +93,15 @@
   background-image: radial-gradient(#e2e8f0 1px, transparent 1px);
   background-size: 32px 32px;
 }
+::selection {
+  background: rgba(216, 0, 50, 0.16);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll,
+  .stagger-in > * {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
